@@ -19,7 +19,7 @@ init_dig=['1','2','3','5','6','8','45','70','71','72','74','75','77','78','79','
 
 #Generate n invalid NIFs
 def generate_nifs(n):
-    f=open("data.nifs.csv","a",newline='')
+    f=open("data_nifs.csv","a",newline='')
     writer=csv.writer(f,delimiter=' ')
     
     for i in range(n):
@@ -45,5 +45,5 @@ def generate_nifs(n):
 # In[14]:
 
 
-generate_nifs(100000)
+generate_nifs(5000000)
 
